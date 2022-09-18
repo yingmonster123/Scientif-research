@@ -1,5 +1,5 @@
 function [count,time] = compute(x,t,step)
-% author: Qian Zhang
+% author: Little Crocodile
 % 输入水位x、时间t和高程的间隔step，输出每个高程h被淹没的潮周期个数总和count和平均时长time
 % 找到最低潮位的索引
 delta = [];
